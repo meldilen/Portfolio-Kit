@@ -1,9 +1,12 @@
+<script>
+    import {base} from "$app/paths";
+</script>
 <header>
     <nav>
         <ul class = "navigation_class">
-            <li><a href="/folder">HOME PAGE</a>
+            <li><a href="{base}/folder">HOME PAGE</a>
             <li><a href="https://github.com/meldilen?tab=repositories">PROJECTS</a>
-            <li><a href="/">PENGUIN</a>
+            <li><a href="{base}/">PENGUIN</a>
         </ul>
     </nav>
 </header>
